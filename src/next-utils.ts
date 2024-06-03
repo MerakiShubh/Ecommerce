@@ -5,4 +5,5 @@ export const nextApp = next({
   port: PORT,
 });
 
-export const nextHandler = nextApp.getUpgradeHandler();
+export const nextHandler = nextApp.getRequestHandler();
+// export const nextHandler = nextApp.getUpgradeHandler(); ek change yaha kiya hai
